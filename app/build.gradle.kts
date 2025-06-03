@@ -5,12 +5,21 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.example.nuevo_proyecto"
     compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.nuevo_proyecto"
         minSdk = 24
+=======
+    namespace = "com.example.app"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "com.example.app"
+        minSdk = 35
+>>>>>>> origin/Nicolee
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -49,6 +58,10 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+<<<<<<< HEAD
+=======
+    implementation(libs.androidx.constraintlayout)
+>>>>>>> origin/Nicolee
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

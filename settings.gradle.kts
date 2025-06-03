@@ -19,6 +19,10 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "nuevo_proyecto"
+=======
+rootProject.name = "App"
+>>>>>>> origin/Nicolee
 include(":app")
  
