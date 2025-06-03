@@ -1,7 +1,11 @@
 <resources>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <string name="app_name">nuevo_proyecto</string>
 =======
     <string name="app_name">App</string>
 >>>>>>> origin/Nicolee
+=======
+    <string name="app_name">ParteFranco</string>
+>>>>>>> origin/franco
 </resources>

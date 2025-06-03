@@ -2,8 +2,12 @@
 <resources>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <style name="Theme.Nuevo_proyecto" parent="android:Theme.Material.Light.NoActionBar" />
 =======
     <style name="Theme.App" parent="android:Theme.Material.Light.NoActionBar" />
 >>>>>>> origin/Nicolee
+=======
+    <style name="Theme.ParteFranco" parent="android:Theme.Material.Light.NoActionBar" />
+>>>>>>> origin/franco
 </resources>

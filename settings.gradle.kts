@@ -20,9 +20,13 @@ dependencyResolutionManagement {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 rootProject.name = "nuevo_proyecto"
 =======
 rootProject.name = "App"
 >>>>>>> origin/Nicolee
+=======
+rootProject.name = "ParteFranco"
+>>>>>>> origin/franco
 include(":app")
  
