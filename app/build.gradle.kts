@@ -7,6 +7,7 @@ plugins {
 android {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     namespace = "com.example.nuevo_proyecto"
     compileSdk = 35
 
@@ -29,6 +30,14 @@ android {
         applicationId = "com.example.partefranco"
         minSdk = 35
 >>>>>>> origin/franco
+=======
+    namespace = "com.example.parteezio1"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "com.example.parteezio1"
+        minSdk = 35
+>>>>>>> origin/ezio1
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -69,12 +78,15 @@ dependencies {
     implementation(libs.androidx.material3)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     implementation(libs.androidx.constraintlayout)
 >>>>>>> origin/Nicolee
 =======
     implementation("androidx.appcompat:appcompat:1.6.1")
 >>>>>>> origin/franco
+=======
+>>>>>>> origin/ezio1
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

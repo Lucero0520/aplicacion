@@ -3,6 +3,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <style name="Theme.Nuevo_proyecto" parent="android:Theme.Material.Light.NoActionBar" />
 =======
     <style name="Theme.App" parent="android:Theme.Material.Light.NoActionBar" />
@@ -10,4 +11,7 @@
 =======
     <style name="Theme.ParteFranco" parent="android:Theme.Material.Light.NoActionBar" />
 >>>>>>> origin/franco
+=======
+    <style name="Theme.ParteEzio1" parent="android:Theme.Material.Light.NoActionBar" />
+>>>>>>> origin/ezio1
 </resources>
