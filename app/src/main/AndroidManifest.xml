@@ -9,18 +9,35 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/pollito"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Nuevo_proyecto">
+        android:theme="@style/Theme.AppCompat.Light">
 
         <!-- Actividad principal -->
         <activity
-            android:name="com.example.app.ui.theme.MainActivity"
+            android:name="com.example.app.ui.theme.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.app.ui.theme.MainActivity"
+            android:exported="true"/>
 
-        
+        <activity
+            android:name=".ui.theme.IntroActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name="com.example.app.ui.theme.DeliveryActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name="com.example.app.ui.theme.Metodos_Pago"
+            android:exported="true"/>
+
+        <activity
+            android:name="com.example.app.ui.theme.PedidosActivity"
+            android:exported="true"/>
     </application>
 </manifest>
