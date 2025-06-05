@@ -188,12 +188,13 @@
 
                     tools:src="@drawable/yape" />
 
-                <TextView
-                    android:id="@+id/tarjetal"
+                <Button
+                    android:id="@+id/button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Metodo de pago"
-                    android:textSize="16sp" />
+                    android:layout_weight="1"
+                    android:text="Metodo de pagos" />
+
             </LinearLayout>
 
             <Space
