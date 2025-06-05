@@ -170,7 +170,7 @@
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="70dp"
-                android:src="@drawable/pollo"
+                android:src="@drawable/pollo1"
                 android:scaleType="centerCrop"
                 android:layout_marginEnd="12dp" />
 
@@ -258,7 +258,7 @@
                 android:background="#C62828"
                 android:text="Agregar"
                 android:textColor="#FFFFFF"
-                android:onClick="agregarElemento" />
+                android:onClick="agreeElement" />
 
         </LinearLayout>
         <!-- Menú inferior -->
@@ -278,7 +278,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/HOUSE"
+                    android:id="@+id/houseinicio"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#FFFFFF"
@@ -300,7 +300,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/imageButton5"
+                    android:id="@+id/promo"
                     android:layout_width="87dp"
                     android:layout_height="54dp"
                     android:backgroundTint="#FFFDFD"
@@ -344,7 +344,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/PERFIL"
+                    android:id="@+id/perfil"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#FFFFFF"

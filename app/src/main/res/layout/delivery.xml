@@ -197,7 +197,7 @@
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:background="#FAFAFA"
-        android:src="@drawable/casa"
+        android:src="@drawable/house"
         android:translationX="50dp"
         android:onClick="onClick"
         android:translationY="-190dp" />

@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+    <!-- Base application theme. -->
     <style name="Theme.Nuevo_proyecto" parent="android:Theme.Material.Light.NoActionBar" />
-=======
-    <style name="Theme.App" parent="android:Theme.Material.Light.NoActionBar" />
->>>>>>> origin/Nicolee
-=======
-    <style name="Theme.ParteFranco" parent="android:Theme.Material.Light.NoActionBar" />
->>>>>>> origin/franco
-=======
-    <style name="Theme.ParteEzio1" parent="android:Theme.Material.Light.NoActionBar" />
->>>>>>> origin/ezio1
+    <!-- Se eligió este nombre de tema para resolver el conflicto -->
 </resources>

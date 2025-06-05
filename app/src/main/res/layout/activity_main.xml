@@ -27,9 +27,7 @@
             android:layout_width="0dp"
             android:layout_height="35dp"
             android:layout_weight="1"
-            android:background="drawable/ic_search_category_default"
             android:backgroundTint="#CCCCCC"
-            android:drawableEnd="@android:drawable/ic_search_category_default"
             android:hint="¿Qué te gustaria pedir hoy?"
             android:paddingHorizontal="10dp"
             android:textColor="#333333"
@@ -66,7 +64,7 @@
                 android:id="@+id/imagencomi"
                 android:layout_width="124dp"
                 android:layout_height="60dp"
-                android:src="@drawable/pollo" />
+                android:src="@drawable/pollo1" />
 
             <Button
                 android:id="@+id/food"
@@ -215,11 +213,11 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/HOUSE"
+                android:id="@+id/houseinicio"
                 android:layout_width="match_parent"
                 android:layout_height="29dp"
                 android:backgroundTint="#FFFFFF"
-                android:src="@drawable/casa" />
+                android:src="@drawable/house" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -237,7 +235,7 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/imageButton5"
+                android:id="@+id/promo"
                 android:layout_width="87dp"
                 android:layout_height="29dp"
                 android:backgroundTint="#FFFDFD"
@@ -281,7 +279,7 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/PERFIL"
+                android:id="@+id/perfil"
                 android:layout_width="match_parent"
                 android:layout_height="42dp"
                 android:backgroundTint="#FFFFFF"
