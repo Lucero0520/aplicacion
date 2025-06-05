@@ -5,39 +5,12 @@ plugins {
 }
 
 android {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    namespace = "com.example.nuevo_proyecto"
+    namespace = "com.example.nuevo_proyecto" // Resuelto el conflicto, se mantiene este namespace
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.nuevo_proyecto"
-        minSdk = 24
-=======
-    namespace = "com.example.app"
-    compileSdk = 35
-
-    defaultConfig {
-        applicationId = "com.example.app"
-        minSdk = 35
->>>>>>> origin/Nicolee
-=======
-    namespace = "com.example.partefranco"
-    compileSdk = 35
-
-    defaultConfig {
-        applicationId = "com.example.partefranco"
-        minSdk = 35
->>>>>>> origin/franco
-=======
-    namespace = "com.example.parteezio1"
-    compileSdk = 35
-
-    defaultConfig {
-        applicationId = "com.example.parteezio1"
-        minSdk = 35
->>>>>>> origin/ezio1
+        applicationId = "com.example.nuevo_proyecto" // Resuelto el conflicto, se mantiene esta ID de aplicación
+        minSdk = 26 // CORREGIDO: minSdk actualizado a 26 para soportar adaptive-icon
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -76,17 +49,9 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    implementation(libs.androidx.constraintlayout)
->>>>>>> origin/Nicolee
-=======
-    implementation("androidx.appcompat:appcompat:1.6.1")
->>>>>>> origin/franco
-=======
->>>>>>> origin/ezio1
+    // Dependencias resueltas de los conflictos:
+    implementation(libs.androidx.constraintlayout) // Incluida de la rama Nicolee
+    implementation("androidx.appcompat:appcompat:1.6.1") // Incluida de la rama Franco
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

@@ -19,18 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-rootProject.name = "nuevo_proyecto"
-=======
-rootProject.name = "App"
->>>>>>> origin/Nicolee
-=======
-rootProject.name = "ParteFranco"
->>>>>>> origin/franco
-=======
-rootProject.name = "ParteEzio1"
->>>>>>> origin/ezio1
-include(":app")
- 
+rootProject.name = "nuevo_proyecto" // Esta línea es la que se mantiene
+include(":app") // Esta línea también es importante y estaba fuera del conflicto principal
