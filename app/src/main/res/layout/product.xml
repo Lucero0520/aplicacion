@@ -21,7 +21,7 @@
             android:layout_width="85dp"
             android:layout_height="70dp"
             android:layout_marginEnd="10dp"
-            android:src="@drawable/texto_del_p_rrafo__1__removebg_preview__2_" />
+            android:src="@drawable/remove" />
 
         <EditText
             android:id="@+id/search"
@@ -152,7 +152,7 @@
                         android:layout_height="16dp"
                         android:layout_marginStart="4dp"
                         android:src="@android:drawable/btn_star_big_on"
-                        android:tint="#FFC107" />
+                        app:tint="#FFC107" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
@@ -237,7 +237,7 @@
                         android:layout_height="16dp"
                         android:layout_marginStart="4dp"
                         android:src="@android:drawable/btn_star_big_on"
-                        android:tint="#FFC107" />
+                        app:tint="#FFC107" />
                 </LinearLayout>
 
                 <TextView
@@ -251,13 +251,11 @@
                     android:textSize="14sp" />
 
                 <ImageButton
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:background="@android:color/transparent"
-                    android:src="@android:drawable/ic_input_add"
-                    android:tint="#FF0000" />
+                    app:tint="#FF0000" /> <!-- CORREGIDO: Usando app:tint -->
+
             </RelativeLayout>
 
             <RelativeLayout
@@ -307,7 +305,7 @@
                         android:layout_height="16dp"
                         android:layout_marginStart="4dp"
                         android:src="@android:drawable/btn_star_big_on"
-                        android:tint="#FFC107" />
+                        app:tint="#FFC107" />
                 </LinearLayout>
 
                 <TextView
@@ -327,7 +325,7 @@
                     android:layout_alignParentEnd="true"
                     android:background="@android:color/transparent"
                     android:src="@android:drawable/ic_input_add"
-                    android:tint="#FF0000" />
+                    app:tint="#FF0000" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -376,7 +374,7 @@
                         android:layout_height="16dp"
                         android:layout_marginStart="4dp"
                         android:src="@android:drawable/btn_star_big_on"
-                        android:tint="#FFC107" />
+                        app:tint="#FFC107" />
                 </LinearLayout>
 
                 <TextView
@@ -396,7 +394,7 @@
                     android:layout_alignParentEnd="true"
                     android:background="@android:color/transparent"
                     android:src="@android:drawable/ic_input_add"
-                    android:tint="#FF0000" />
+                    app:tint="#FF0000" />
             </RelativeLayout>
         </LinearLayout>
     </ScrollView>
@@ -417,11 +415,11 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/HOUSE"
+                android:id="@+id/houseinicio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
-                android:src="@drawable/casa" />
+                android:src="@drawable/inicio" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -439,7 +437,7 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/imageButton5"
+                android:id="@+id/promo"
                 android:layout_width="87dp"
                 android:layout_height="54dp"
                 android:backgroundTint="#FFFDFD"
@@ -483,7 +481,7 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/PERFIL"
+                android:id="@+id/perfil"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"

@@ -15,16 +15,6 @@
         android:textAlignment="center"
         android:textSize="20sp" />
 
-    <ImageButton
-        android:id="@+id/retroceder"
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:background="#FFF2CC"
-        android:src="@drawable/abc_vector_test"
-        android:tint="#1A1717"
-        android:translationX="20dp"
-        android:translationY="-30dp" />
-
     <LinearLayout
         android:layout_width="387dp"
         android:layout_height="wrap_content"

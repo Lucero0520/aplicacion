@@ -227,7 +227,7 @@
             android:focusable="true"
             android:gravity="center_vertical"
             android:padding="8dp"
-            android:text="Nombre del contacto"
+            android:text="Chat: [Nombre del contacto o 'Chatea con nosotros']"
             android:textColor="@android:color/black"
             android:textSize="16sp"
             android:textStyle="bold" />

@@ -1,15 +1,5 @@
 <resources>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <string name="app_name">nuevo_proyecto</string>
-=======
-    <string name="app_name">App</string>
->>>>>>> origin/Nicolee
-=======
-    <string name="app_name">ParteFranco</string>
->>>>>>> origin/franco
-=======
-    <string name="app_name">ParteEzio1</string>
->>>>>>> origin/ezio1
+    <string name="app_name">nuevo_proyecto</string> <!-- Se eligió este nombre para la aplicación -->
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_registe">RegisteActivity</string> <!-- Se incluyó esta cadena -->
 </resources>
