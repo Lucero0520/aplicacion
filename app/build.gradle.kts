@@ -52,6 +52,7 @@ dependencies {
     // Dependencias resueltas de los conflictos:
     implementation(libs.androidx.constraintlayout) // Incluida de la rama Nicolee
     implementation("androidx.appcompat:appcompat:1.6.1") // Incluida de la rama Franco
+    implementation ("com.google.android.material:material:1.11.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

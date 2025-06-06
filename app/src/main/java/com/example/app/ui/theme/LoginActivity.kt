@@ -7,19 +7,20 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.nuevo_proyecto.R
 import com.example.app.ui.theme.RegisterActivity
+import kotlinx.coroutines.MainScope
 
 class LoginActivity : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         // Asegúrate de que 'activity_login' sea el nombre de tu archivo XML de layout (ej. activity_login.xml)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.login)
 
-        val btnIrARegistro = findViewById<Button>(R.id.btnIngresar)
+        val btnIrARegistro = findViewById<Button>(R.id.btnlogin)
 
         // Acción al hacer clic para ir a RegisterActivity
         btnIrARegistro.setOnClickListener {
-            val intent = Intent(this, RegisterActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 

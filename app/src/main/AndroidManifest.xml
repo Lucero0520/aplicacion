@@ -10,16 +10,16 @@
         android:roundIcon="@drawable/pollito"
         android:supportsRtl="true"
 
-        android:theme="@style/Theme.AppCompat.Light">
-
-        <!-- Actividad principal -->
-        <activity
-            android:name="com.example.app.ui.theme.LoginActivity"
         android:theme="@style/Theme.Nuevo_proyecto">
 
         <!-- Actividad principal -->
         <activity
             android:name="com.example.app.ui.theme.MainActivity"
+        android:theme="@style/Theme.AppCompat"/>
+
+        <!-- Actividad principal -->
+        <activity
+            android:name="com.example.app.ui.theme.LoginActivity"
 
             android:exported="true">
             <intent-filter>
@@ -27,10 +27,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.app.ui.theme.MainActivity"
-            android:exported="true"
-            tools:ignore="DuplicateActivity" />
 
 
         <activity
