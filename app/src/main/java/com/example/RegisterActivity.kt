@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:app/src/main/java/com/example/RegisterActivity.kt
 package com.example
+========
+package com.example.app.ui.theme
+>>>>>>>> 3a6784df1bc8571ba5502db96085dc9049c8e43d:app/src/main/java/com/example/app/ui/theme/RegisterActivity.kt
 
 import android.os.Bundle
 import android.widget.Button
