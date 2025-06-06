@@ -253,80 +253,100 @@
     </LinearLayout>
     <!-- Menú inferior -->
     <LinearLayout
-        android:id="@+id/bottom_nav"
-        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:orientation="horizontal"
+        android:layout_height="271dp"
         android:background="#FFFFFF"
-        android:weightSum="4">
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingVertical="8dp">
 
         <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="47dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
             android:orientation="vertical">
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:src="@drawable/inicio1" />
+
+            <ImageButton
+                android:id="@+id/houseinicio"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:backgroundTint="#FFFFFF"
+                android:src="@drawable/house" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Inicio"
-                android:textSize="12sp"/>
+                android:textColor="#000000"
+                android:textSize="10sp" />
         </LinearLayout>
 
         <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
             android:orientation="vertical">
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:src="@drawable/promoc2" />
+
+            <ImageButton
+                android:id="@+id/promo"
+                android:layout_width="87dp"
+                android:layout_height="35dp"
+                android:backgroundTint="#FFFDFD"
+                android:src="@drawable/mega" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Promociones"
-                android:textSize="12sp"/>
+                android:textColor="#000000"
+                android:textSize="10sp" />
         </LinearLayout>
 
         <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="49dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
             android:orientation="vertical">
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:src="@drawable/pedidos3" />
+
+            <ImageButton
+                android:id="@+id/car"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:backgroundTint="#FBFBFB"
+                android:src="@drawable/car" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Pedidos"
-                android:textSize="12sp"/>
+                android:textColor="#000000"
+                android:textSize="10sp" />
         </LinearLayout>
 
         <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="48dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
             android:orientation="vertical">
-            <ImageView
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:src="@drawable/cuenta4" />
+
+            <ImageButton
+                android:id="@+id/perfil"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:backgroundTint="#FFFFFF"
+                android:src="@drawable/icon" />
+
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="25dp"
                 android:text="Cuenta"
-                android:textSize="12sp"/>
+                android:textColor="#000000"
+                android:textSize="10sp" />
         </LinearLayout>
     </LinearLayout>
+
 </LinearLayout>

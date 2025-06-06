@@ -5,267 +5,144 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="31dp"
-        android:layout_height="51dp"
+    <ImageView android:id="@+id/imageView"
+        android:layout_width="75dp"
+        android:layout_height="72dp"
         android:src="@drawable/play_store_512" />
-
-    <ImageButton
-        android:id="@+id/Button_perfil"
+    <ImageButton android:id="@+id/Button_perfil"
         android:layout_width="45dp"
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
         android:src="@drawable/play_store_513"
         android:translationX="350dp"
         android:translationY="-60dp" />
-
-    <TextView
-        android:id="@+id/textView2"
+    <TextView android:id="@+id/textView2"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="Tu pedido"
         android:textSize="24sp"
-        android:translationX="20dp"
+        android:translationX="80dp"
         android:translationY="-70dp" />
-
-    <TextView
-        android:id="@+id/textView3"
+    <TextView android:id="@+id/textView3"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Direccion de Entrega"
         android:textSize="16sp"
         android:translationX="20dp"
         android:translationY="-65dp" />
+    <TextView android:id="@+id/textView4" android:layout_width="300dp" android:layout_height="wrap_content" android:fontFamily="sans-serif-black" android:text="AV.PEDRO HUILCA S/N _- Ilo - Ilo" android:textSize="18sp" android:translationX="20dp" android:translationY="-60dp" />
+    <TextView android:id="@+id/textView5" android:layout_width="80dp" android:layout_height="wrap_content" android:background="#673AB7" android:backgroundTint="#00E91E63" android:fontFamily="sans-serif-black" android:text="Cambiar" android:textColor="#4CAF50" android:textColorHighlight="#4CAF50" android:textSize="16sp" android:translationX="330dp" android:translationY="-80dp" />
+    <ImageView android:id="@+id/imageView5" android:layout_width="390dp" android:layout_height="150dp" android:src="@drawable/direccion1" android:translationY="-55dp" />
+    <ImageView android:id="@+id/imageView9" android:layout_width="80dp" android:layout_height="80dp" android:src="@drawable/pollo1" android:translationX="20dp" android:translationY="-35dp" />
+    <TextView android:id="@+id/textView7" android:layout_width="100dp" android:layout_height="wrap_content" android:fontFamily="sans-serif-black" android:text="Pollo Real" android:textSize="18dp" android:translationX="110dp" android:translationY="-110dp" />
+    <TextView android:id="@+id/textView8" android:layout_width="150dp" android:layout_height="wrap_content" android:text="1 pollo + gaseosa " android:textSize="16sp" android:translationX="115dp" android:translationY="-110dp" />
+    <TextView android:id="@+id/textView9" android:layout_width="45dp" android:layout_height="wrap_content" android:fontFamily="monospace" android:text="S/45" android:translationX="270dp" android:translationY="-140dp" />
+    <TextView android:id="@+id/textView10" android:layout_width="80dp" android:layout_height="wrap_content" android:fontFamily="sans-serif-black" android:text="Cancelado" android:textColor="#F44336" android:textSize="16sp" android:translationX="330dp" android:translationY="-150dp" />
+    <ImageView android:id="@+id/imageView10" android:layout_width="80dp" android:layout_height="80dp" android:src="@drawable/pollo2" android:translationX="20dp" android:translationY="-100dp" />
+    <TextView android:id="@+id/textView11" android:layout_width="100dp" android:layout_height="wrap_content" android:fontFamily="sans-serif-black" android:text="Promo Crusty" android:textSize="16sp" android:translationX="110dp" android:translationY="-170dp" />
+    <TextView android:id="@+id/textView12" android:layout_width="100dp" android:layout_height="wrap_content" android:text="1 pollo + papas + gaseosa" android:translationX="115dp" android:translationY="-170dp" />
+    <TextView android:id="@+id/textView13" android:layout_width="45dp" android:layout_height="wrap_content" android:text="S/55" android:translationX="270dp" android:translationY="-210dp" />
+    <TextView android:id="@+id/textView15" android:layout_width="match_parent" android:layout_height="34dp" android:fontFamily="sans-serif-black" android:text="Pagado" android:textColor="#4CAF50" android:translationX="330dp" android:translationY="-230dp" />
+    <TextView android:id="@+id/textView16" android:layout_width="150dp" android:layout_height="40dp" android:fontFamily="sans-serif-black" android:text="Metodo de Pago" android:textColor="#161515" android:textSize="16sp" android:translationX="20dp" android:translationY="-190dp" />
+    <TextView android:id="@+id/textView18" android:layout_width="70dp" android:layout_height="31dp" android:fontFamily="sans-serif-black" android:text="Yape" android:textColor="#4CAF50" android:textSize="16sp" android:translationX="20dp" android:translationY="-190dp" />
+    <TextView android:id="@+id/textView" android:layout_width="200dp" android:layout_height="33dp" android:fontFamily="sans-serif-black" android:text="pago al entregar el pedido >>>" android:translationX="220dp" android:translationY="-220dp" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="AV.PEDRO HUILCA S/N _- Ilo - Ilo"
-        android:textSize="18sp"
-        android:translationX="20dp"
-        android:translationY="-60dp" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="80dp"
-        android:layout_height="wrap_content"
-        android:background="#673AB7"
-        android:backgroundTint="#00E91E63"
-        android:fontFamily="sans-serif-black"
-        android:text="Cambiar"
-        android:textColor="#4CAF50"
-        android:textColorHighlight="#4CAF50"
-        android:textSize="16sp"
-        android:translationX="330dp"
-        android:translationY="-80dp" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="390dp"
-        android:layout_height="150dp"
-        android:src="@drawable/direccion1"
-        android:translationY="-55dp" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:src="@drawable/pollo1"
-        android:translationX="20dp"
-        android:translationY="-35dp" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="Pollo Real"
-        android:textSize="18dp"
-        android:translationX="110dp"
-        android:translationY="-110dp" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="1 pollo + gaseosa "
-        android:textSize="16sp"
-        android:translationX="115dp"
-        android:translationY="-110dp" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="45dp"
-        android:layout_height="wrap_content"
-        android:fontFamily="monospace"
-        android:text="S/45"
-        android:translationX="270dp"
-        android:translationY="-140dp" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="80dp"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="Cancelado"
-        android:textColor="#F44336"
-        android:textSize="16sp"
-        android:translationX="330dp"
-        android:translationY="-150dp" />
-
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:src="@drawable/pollo2"
-        android:translationX="20dp"
-        android:translationY="-100dp" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="Promo Crusty"
-        android:textSize="16sp"
-        android:translationX="110dp"
-        android:translationY="-170dp" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:text="1 pollo + papas + gaseosa"
-        android:translationX="115dp"
-        android:translationY="-170dp" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="45dp"
-        android:layout_height="wrap_content"
-        android:text="S/55"
-        android:translationX="270dp"
-        android:translationY="-210dp" />
-
-    <TextView
-        android:id="@+id/textView15"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="34dp"
-        android:fontFamily="sans-serif-black"
-        android:text="Pagado"
-        android:textColor="#4CAF50"
-        android:translationX="330dp"
-        android:translationY="-230dp" />
+        android:layout_height="271dp"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingVertical="8dp">
 
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="150dp"
-        android:layout_height="40dp"
-        android:fontFamily="sans-serif-black"
-        android:text="Metodo de Pago"
-        android:textColor="#161515"
-        android:textSize="16sp"
-        android:translationX="20dp"
-        android:translationY="-190dp" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="70dp"
-        android:layout_height="31dp"
-        android:fontFamily="sans-serif-black"
-        android:text="Yape"
-        android:textColor="#4CAF50"
-        android:textSize="16sp"
-        android:translationX="20dp"
-        android:translationY="-190dp" />
+            <ImageButton
+                android:id="@+id/houseinicio"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:backgroundTint="#FFFFFF"
+                android:src="@drawable/house" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="200dp"
-        android:layout_height="33dp"
-        android:fontFamily="sans-serif-black"
-        android:text="pago al entregar el pedido >>>"
-        android:translationX="220dp"
-        android:translationY="-220dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inicio"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+        </LinearLayout>
 
-    <ImageButton
-        android:id="@+id/Button_house"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:background="#FAFAFA"
-        android:src="@drawable/house"
-        android:translationX="50dp"
-        android:onClick="onClick"
-        android:translationY="-190dp" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="60dp"
-        android:layout_height="40dp"
-        android:text="Inicio"
-        android:textColor="#0D0D0D"
-        android:textSize="16sp"
-        android:translationX="45dp"
-        android:translationY="-180dp" />
+            <ImageButton
+                android:id="@+id/promo"
+                android:layout_width="87dp"
+                android:layout_height="35dp"
+                android:backgroundTint="#FFFDFD"
+                android:src="@drawable/mega" />
 
-    <ImageButton
-        android:id="@+id/Button_promo"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:background="#F6F3F3"
-        android:src="@drawable/sonido"
-        android:translationX="150dp"
-        android:translationY="-260dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Promociones"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+        </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="100dp"
-        android:layout_height="20dp"
-        android:text="Promociones"
-        android:textColor="#1D1C1C"
-        android:textSize="16sp"
-        android:translationX="120dp"
-        android:translationY="-250dp" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
 
-    <ImageButton
-        android:id="@+id/button_car"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:background="#F8F6F6"
-        android:src="@drawable/carrito"
-        android:translationX="260dp"
-        android:translationY="-310dp" />
+            <ImageButton
+                android:id="@+id/car"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:backgroundTint="#FBFBFB"
+                android:src="@drawable/car" />
 
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="60dp"
-        android:layout_height="20dp"
-        android:text="Pedidos"
-        android:textColor="#212020"
-        android:textSize="16sp"
-        android:translationX="245dp"
-        android:translationY="-300dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pedidos"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+        </LinearLayout>
 
-    <ImageButton
-        android:id="@+id/Button_cuenta"
-        android:layout_width="52dp"
-        android:layout_height="35dp"
-        android:background="#09FFFFFF"
-        android:src="@drawable/perfil"
-        android:translationX="340dp"
-        android:translationY="-360dp" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="60dp"
-        android:layout_height="20dp"
-        android:text="Cuenta"
-        android:textColor="#1B1A1A"
-        android:translationX="340dp"
-        android:translationY="-355dp" />
+            <ImageButton
+                android:id="@+id/perfil"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:backgroundTint="#FFFFFF"
+                android:src="@drawable/icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Cuenta"
+                android:textColor="#000000"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
 
 </LinearLayout>

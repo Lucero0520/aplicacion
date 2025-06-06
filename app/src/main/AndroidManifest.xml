@@ -21,12 +21,14 @@
             </intent-filter>
         </activity>
 
-        <!-- Segunda actividad: MainActivity -->
         <activity
             android:name="com.example.MainActivity"
             android:exported="true"/>
         <activity
             android:name="com.example.ProductActivity"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.PromoActivity"
             android:exported="true"/>
     </application>
 </manifest>

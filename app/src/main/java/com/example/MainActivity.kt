@@ -14,20 +14,26 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val houseButton = findViewById<ImageButton>(R.id.houseinicio)
         val promoButton = findViewById<ImageButton>(R.id.promo)
+        val carButton = findViewById<ImageButton>(R.id.car)
 
         // Configurar el botón de promociones
         promoButton.setOnClickListener {
             val intent = Intent(this, ProductActivity::class.java)
             startActivity(intent) // Inicia la nueva actividad
+        }
 
         houseButton.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
+        carButton.setOnClickListener {
+                val intent = Intent(this, PromoActivity::class.java)
+                startActivity(intent)
+        }
+
 
 
 
 
         }
     }
-}
