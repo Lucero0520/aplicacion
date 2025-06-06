@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFF2CC"
+        android:fontFamily="sans-serif-black"
+        android:text="Metodos de pago"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:orientation="horizontal"
+        android:translationX="10dp"
+        android:translationY="30dp">
+
+        <Button
+            android:id="@+id/button_servicios_pago"
+            android:layout_width="279dp"
+            android:layout_height="30dp"
+            android:background="#00FFFFFF"
+            android:text="Servicio de Pagos"
+            android:textAlignment="viewStart" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/plin1"
+        android:translationX="20dp"
+        android:translationY="40dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/yape"
+        android:translationX="100dp"
+        android:translationY="-20dp" />
+
+</LinearLayout>

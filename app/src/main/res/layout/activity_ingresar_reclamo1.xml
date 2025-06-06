@@ -1,0 +1,201 @@
+<!-- res/layout/activity_formulario_reclamo.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- DATOS PERSONALES -->
+        <EditText
+            android:id="@+id/etNombre"
+            android:hint="Nombres y Apellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etDni"
+            android:hint="DNI"
+            android:inputType="number"
+            android:maxLength="8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etTelefono"
+            android:hint="Teléfono"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etCorreo"
+            android:hint="Correo Electrónico"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etDireccion"
+            android:hint="Dirección"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- DATOS DEL RECLAMO -->
+        <EditText
+            android:id="@+id/etDescripcionBien"
+            android:hint="Producto o Servicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etDetalleReclamo"
+            android:hint="Detalle del Reclamo o Queja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etPedidoConsumidor"
+            android:hint="Pedido del Consumidor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- CONSENTIMIENTO -->
+        <CheckBox
+            android:id="@+id/chkConsentimiento"
+            android:text="Acepto el tratamiento de mis datos personales"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- BOTONES -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Observaciones y acciones adoptadas por el proveedor"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Estimado Cliente, muchas gracias por registrar su incidencia en el Libro de Reclamaciones, su opinion es muy importante para nosotros. La
+firma del colaborador en la presente hoja de reclamo, expresa únicamente la recepción de la misma, más no la aceptación de su contenido. La presente reclamación
+será tratada dentro del plazo de ley. Nuestra área de servicio al Cliente le informa: (i) La formulación del reclamo no impide acudir a otras vias de solución de controversias
+ni es requisito previo para interponer una denunca ante el INDECOPI."
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnCancelar"
+                android:text="Cancelar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="50dp" />
+
+            <Button
+                android:id="@+id/btnEnviar"
+                android:text="Enviar Reclamo"
+                android:backgroundTint="#b83c2c"
+                android:textColor="#FFFFFF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <!-- Menú inferior -->
+        <LinearLayout
+            android:id="@+id/bottom_nav"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="#FFFFFF"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/inicio1" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inicio"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/promoc2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Promociones"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/pedidos3" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pedidos"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/cuenta4" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cuenta"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
