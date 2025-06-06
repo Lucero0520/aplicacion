@@ -2,9 +2,11 @@ package com.example
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import com.example.nuevo_proyecto.R
+
 
 class MainActivity : AppCompatActivity() {
     // La anotación @SuppressLint("MissingInflatedId") ya no es necesaria si no buscas IDs de vistas
@@ -15,8 +17,19 @@ class MainActivity : AppCompatActivity() {
         val houseButton = findViewById<ImageButton>(R.id.houseinicio)
         val promoButton = findViewById<ImageButton>(R.id.promo)
         val carButton = findViewById<ImageButton>(R.id.car)
+        val foodButton = findViewById<Button>(R.id.food)
+        val drinkButton = findViewById<Button>(R.id.drinks)
 
-        // Configurar el botón de promociones
+        // Configurar el botón de comida
+
+        foodButton.setOnClickListener {
+            val intent = Intent(this, ProductActivity::class.java)
+            startActivity(intent)
+        }
+        drinkButton.setOnClickListener {
+            val intent = Intent(this, DrinkActivity::class.java)
+            startActivity(intent)
+        }
         promoButton.setOnClickListener {
             val intent = Intent(this, ProductActivity::class.java)
             startActivity(intent) // Inicia la nueva actividad
@@ -27,12 +40,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         carButton.setOnClickListener {
-                val intent = Intent(this, PromoActivity::class.java)
-                startActivity(intent)
+            val intent = Intent(this, PromoActivity::class.java)
+            startActivity(intent)
         }
-
-
-
 
 
         }

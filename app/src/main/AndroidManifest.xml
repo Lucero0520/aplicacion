@@ -30,5 +30,15 @@
         <activity
             android:name="com.example.PromoActivity"
             android:exported="true"/>
+
+        <activity
+            android:name="com.example.DrinkActivity"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.DetallesPromoActivity"
+            android:exported="true"/>
+        <activity
+            android:name="com.example.PedidosActivity"
+            android:exported="true"/>
     </application>
 </manifest>
