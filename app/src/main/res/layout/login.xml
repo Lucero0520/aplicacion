@@ -91,7 +91,7 @@
             android:layout_height="48dp"
             android:layout_marginBottom="16dp"
             android:backgroundTint="#eda464"
-            android:text="Registrate"
+            android:text="Iniciar Sesion"
             android:textColor="@android:color/white"
             android:textSize="16sp" />
 
