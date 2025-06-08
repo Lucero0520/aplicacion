@@ -15,6 +15,7 @@ class PromoActivity : AppCompatActivity() {
         val houseButton = findViewById<ImageButton>(R.id.houseinicio)
         val promoButton = findViewById<ImageButton>(R.id.promo)
         val carButton   = findViewById<ImageButton>(R.id.car)
+        val perfilButton = findViewById<ImageButton>(R.id.perfil)
 
         // Configurar el botón para ir a MainActivity
         promoButton.setOnClickListener {
@@ -28,6 +29,10 @@ class PromoActivity : AppCompatActivity() {
         }
         carButton.setOnClickListener {
             val intent = Intent(this, PromoActivity::class.java)
+            startActivity(intent)
+        }
+        perfilButton.setOnClickListener {
+            val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)
         }
 

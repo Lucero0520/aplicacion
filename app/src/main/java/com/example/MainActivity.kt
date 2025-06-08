@@ -9,18 +9,17 @@ import com.example.nuevo_proyecto.R
 
 
 class MainActivity : AppCompatActivity() {
-    // La anotación @SuppressLint("MissingInflatedId") ya no es necesaria si no buscas IDs de vistas
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        // Asegúrate de que 'activity_main' sea el nombre de tu archivo XML de layout (ej. activity_main.xml)
+
         setContentView(R.layout.activity_main)
         val houseButton = findViewById<ImageButton>(R.id.houseinicio)
         val promoButton = findViewById<ImageButton>(R.id.promo)
         val carButton = findViewById<ImageButton>(R.id.car)
         val foodButton = findViewById<Button>(R.id.food)
         val drinkButton = findViewById<Button>(R.id.drinks)
+        val perfilButton = findViewById<ImageButton>(R.id.perfil)
 
-        // Configurar el botón de comida
 
         foodButton.setOnClickListener {
             val intent = Intent(this, ProductActivity::class.java)
@@ -32,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         }
         promoButton.setOnClickListener {
             val intent = Intent(this, ProductActivity::class.java)
-            startActivity(intent) // Inicia la nueva actividad
+            startActivity(intent)
         }
 
         houseButton.setOnClickListener {
@@ -41,6 +40,10 @@ class MainActivity : AppCompatActivity() {
         }
         carButton.setOnClickListener {
             val intent = Intent(this, PromoActivity::class.java)
+            startActivity(intent)
+        }
+        perfilButton.setOnClickListener {
+            val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)
         }
 

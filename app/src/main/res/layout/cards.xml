@@ -4,6 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Volver"
+        android:src="@drawable/flecha" />
 
     <TextView
         android:id="@+id/textView29"
@@ -34,7 +41,7 @@
     </LinearLayout>
 
     <ImageButton
-        android:id="@+id/imageButton20"
+        android:id="@+id/plincard"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/plin1"
@@ -42,7 +49,7 @@
         android:translationY="40dp" />
 
     <ImageButton
-        android:id="@+id/imageButton23"
+        android:id="@+id/button_yap"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:src="@drawable/yape"

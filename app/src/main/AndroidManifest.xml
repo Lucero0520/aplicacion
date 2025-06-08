@@ -40,5 +40,25 @@
         <activity
             android:name="com.example.PedidosActivity"
             android:exported="true"/>
+        <activity
+            android:name="com.example.ProfileActivity"
+            android:exported="true"/>
+        <activity android:name="com.example.nuevo_proyecto.OptionActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+
+        <activity android:name="com.example.nuevo_proyecto.CardsActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+
+        <activity android:name="com.example.nuevo_proyecto.YapeActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:name="com.example.nuevo_proyecto.ContactInfoActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:name="com.example.SettingActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:name="com.example.nuevo_proyecto.PlinActivity"
+            android:theme="@style/Theme.AppCompat.Light" />
+
+
+
     </application>
 </manifest>
