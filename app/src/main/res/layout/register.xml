@@ -50,7 +50,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Ingresa una contraseña"
+        android:hint="Ingrese una contraseña"
         android:inputType="textPassword"
         android:background="@drawable/edittext_background"
         android:paddingStart="16dp"
@@ -100,13 +100,13 @@
             android:textColor="#666666"/>
 
         <TextView
+            android:id="@+id/tvIniciarSesion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Inicia sesiòn"
-            android:textSize="14sp"
-            android:textColor="#e2da96"
-            android:textStyle="bold"
-            android:layout_marginStart="4dp"/>
+            android:text="Iniciar sesiòn"
+            android:textColor="#ee672f"
+            android:layout_marginStart="4dp"
+            android:textStyle="bold"/>
     </LinearLayout>
 
 </LinearLayout>

@@ -8,7 +8,10 @@ import androidx.activity.ComponentActivity
 import com.example.MainActivity
 
 import android.widget.ImageButton
-
+import android.widget.TextView
+import com.example.HelpActivity
+import com.example.LibroReclamacionesActivity
+import com.example.LoginActivity
 
 
 class OptionActivity : ComponentActivity() {
@@ -29,5 +32,21 @@ class OptionActivity : ComponentActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
+
+        findViewById<TextView>(R.id.terminosl)?.setOnClickListener {
+            startActivity(Intent(this, HelpActivity::class.java))
+            finish()
+        }
+        findViewById<TextView>(R.id.reclamacionl)?.setOnClickListener {
+            startActivity(Intent(this, LibroReclamacionesActivity::class.java))
+            finish()
+        }
+
+        findViewById<TextView>(R.id.cerraruni)?.setOnClickListener {
+            startActivity(Intent(this, LoginActivity::class.java))
+            finish()
+        }
+
+
     }
 }

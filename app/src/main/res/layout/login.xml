@@ -14,7 +14,7 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/logogallo" />
@@ -91,7 +91,7 @@
             android:layout_height="48dp"
             android:layout_marginBottom="16dp"
             android:backgroundTint="#eda464"
-            android:text="Iniciar Sesion"
+            android:text="Iniciar Sesión"
             android:textColor="@android:color/white"
             android:textSize="16sp" />
 
@@ -104,18 +104,19 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ya tienes cuenta?"
+                android:text="¿No tienes cuenta?"
                 android:textColor="#666666"
                 android:textSize="14sp" />
 
             <TextView
+                android:id="@+id/tvCrearCuenta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
-                android:text="Inicia sesiòn"
-                android:textColor="#e2da96"
+                android:text="Crear cuenta"
+                android:textColor="#ee672f"
                 android:textSize="14sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"/>
         </LinearLayout>
 
     </LinearLayout>
@@ -124,4 +125,3 @@
 </LinearLayout>
 
     <!-- Enlace Registro -->
-

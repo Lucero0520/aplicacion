@@ -11,31 +11,34 @@ class DetallesPromoActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_promo)
-
+        setContentView(R.layout.delivery)
         val houseButton = findViewById<ImageButton>(R.id.houseinicio)
         val promoButton = findViewById<ImageButton>(R.id.promo)
         val carButton = findViewById<ImageButton>(R.id.car)
-        val detailButton = findViewById<Button>(R.id.detalles)
-
-        detailButton.setOnClickListener {
-            val intent = Intent(this, PedidosActivity::class.java)
-            startActivity(intent)
-        }
-
-        promoButton.setOnClickListener {
-            val intent = Intent(this, ProductActivity::class.java)
-            startActivity(intent)
-        }
+        val perfilButton = findViewById<ImageButton>(R.id.perfil)
+        val colorButton = findViewById<Button>(R.id.color)
 
         houseButton.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
-
+        promoButton.setOnClickListener {
+            val intent = Intent(this, ProductActivity::class.java)
+            startActivity(intent)
+        }
         carButton.setOnClickListener {
             val intent = Intent(this, PromoActivity::class.java)
             startActivity(intent)
         }
+
+        perfilButton.setOnClickListener {
+            val intent = Intent(this, ProfileActivity::class.java)
+            startActivity(intent)
+        }
+        colorButton.setOnClickListener {
+            val intent = Intent(this, PedidosActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import com.example.nuevo_proyecto.R
+import android.widget.Button
 
 
 class PromoActivity : AppCompatActivity() {
@@ -16,8 +17,9 @@ class PromoActivity : AppCompatActivity() {
         val promoButton = findViewById<ImageButton>(R.id.promo)
         val carButton   = findViewById<ImageButton>(R.id.car)
         val perfilButton = findViewById<ImageButton>(R.id.perfil)
+        val detallesButton = findViewById<Button>(R.id.detalles)
 
-        // Configurar el botón para ir a MainActivity
+
         promoButton.setOnClickListener {
             val intent = Intent(this, ProductActivity::class.java)
             startActivity(intent) // Inicia la nueva actividad
@@ -33,6 +35,10 @@ class PromoActivity : AppCompatActivity() {
         }
         perfilButton.setOnClickListener {
             val intent = Intent(this, ProfileActivity::class.java)
+            startActivity(intent)
+        }
+        detallesButton.setOnClickListener {
+            val intent = Intent(this, DetallesPromoActivity::class.java)
             startActivity(intent)
         }
 
